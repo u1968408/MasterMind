@@ -77,7 +77,7 @@ function insertar_codigo() {
     }
     // Comprovar derrota
     if (intentosActuales >= MAX_TRIES) {
-        delay(1000).then(() =>exit());
+        delay(10).then(() =>exit());
     }
 }
 
