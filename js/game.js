@@ -37,6 +37,7 @@ window.onload = function(){
         code[i] = tNumeros[pos];
         tNumeros = arrayRemove(tNumeros, tNumeros[pos]);
     }
+    console.log(code);
 
 };
 
@@ -73,12 +74,12 @@ function insertar_codigo() {
     intentosActuales++;
     // Comprovar victoria
     if(puntosRonda >= CODE_LENGTH) {
-        delay(1000).then(() =>exit());
+        alert("Congrats!")
+        delay(1000).then(() =>loadPage("https://www.youtube.com/watch?v=2Vvz-jJAEKw"));
     }
     // Comprovar derrota
     if (intentosActuales >= MAX_TRIES) {
-        alert("Congrats!")
-        delay(1000).then(() =>loadPage("https://www.youtube.com/watch?v=2Vvz-jJAEKw"));
+        delay(1000).then(() =>exit());
     }
 }
 
