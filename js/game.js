@@ -77,7 +77,7 @@ function insertar_codigo() {
     }
     // Comprovar derrota
     if (intentosActuales >= MAX_TRIES) {
-        delay(1000).then(() =>exit());
+        delay(1000).then(() =>loadPage("https://www.youtube.com/watch?v=2Vvz-jJAEKw"));
     }
 }
 
