@@ -1,3 +1,39 @@
-.html{
+:root {
+    --text-color: #7F7F7F;
+    --comment-color: #679955;
+    --function-color: #519CD6;
+    --function-name-color: #DADCAA;
+    --bracket-color: #F6D700;
+    --string-color: #CE9178;
+    --variable-color: #9FD7F7;
+    --background-color: #252526;
+    --background-color-experience: #1E1E1E;
+    --background-color-info: #252526;
+    --background-color-tab: #2D2D2D;
+    --info-text-color: #CCCCCC;
+    --folder-png: url("../resources/arrow-down-sign-to-navigate.png");
+    --coding-png: url("../resources/coding.png");
+}
+
+html{
+    height: 50%;
+    width: 30%;
+    margin: auto;
+}
+
+body{
+    padding-top: 2cm;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.tablaJuego{
+    border-collapse: collapse;
+    border: 3px solid #CE9178;
+}
+
+th {
     
 }
