@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>MM Game</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="icon" type="image/x-icon" href="../resources/favicon.ico">
+	<script src="../js/loader.js"></script>
+	<script src="../js/game.js"></script>
+	<script src="../js/menu_controller.js"></script>
+</head>
+
+<body>
+    <div id="tablero">
+        <table id="tablaJuego">
+            <tr>
+                <th>X</th>
+                <th>X</th>
+                <th>X</th>
+                <th>X</th>
+                <th> </th>
+                <th> </th>
+                <th> </th>
+                <th> </th>
+            </tr>
+        </table>
+    </div>
+    <label for="code"> Código: </label>
+    <input type="text"  id="code" name="code" maxlength="4" size="10">
+    <button class="menu-button" onclick="insertar_codigo()"> Insertar </button>
+</body>
+
+</html>
