@@ -37,7 +37,6 @@ window.onload = function(){
         code[i] = tNumeros[pos];
         tNumeros = arrayRemove(tNumeros, tNumeros[pos]);
     }
-    console.log(code);
 
 };
 
