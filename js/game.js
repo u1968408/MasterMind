@@ -17,13 +17,13 @@ window.onload = function(){
     table = document.getElementById("tablaJuego");
 
     puntoBlanco = document.createElement('img');
-    puntoBlanco.src = "/MasterMindMF/resources/WhiteDot16.png";
+    puntoBlanco.src = "./resources/WhiteDot16.png";
 
     puntoRojo = document.createElement('img');
-    puntoRojo.src = "/MasterMindMF/resources/RedDot16.png";
+    puntoRojo.src = "./resources/RedDot16.png";
 
     puntoVacio = document.createElement('img');
-    puntoVacio.src = "/MasterMindMF/resources/BlankDot16.png";
+    puntoVacio.src = "./resources/BlankDot16.png";
 
     cells = [];
     valores = [];
