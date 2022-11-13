@@ -1,18 +1,8 @@
 :root {
     --text-color: #7F7F7F;
-    --comment-color: #679955;
-    --function-color: #519CD6;
-    --function-name-color: #DADCAA;
-    --bracket-color: #F6D700;
-    --string-color: #CE9178;
-    --variable-color: #9FD7F7;
     --background-color: #252526;
-    --background-color-experience: #1E1E1E;
-    --background-color-info: #252526;
-    --background-color-tab: #2D2D2D;
-    --info-text-color: #CCCCCC;
-    --folder-png: url("../resources/arrow-down-sign-to-navigate.png");
-    --coding-png: url("../resources/coding.png");
+    --shadow-color: #7c2d2d;
+    --border-color: #7c2d2d;
 }
 
 html{
@@ -26,24 +16,29 @@ body{
     background-color: var(--background-color);
     color: var(--text-color);
     font-size:x-large;
-    text-shadow: 0 0 5px #7c2d2d;
+    text-shadow: 0 0 5px var(--shadow-color);
     margin-left: 10%;
     margin-right: 10%;
 }
 
 table {
     width: 100%;
-    border: 10px solid #7c2d2d;
+    border: 10px solid var(--shadow-color);
     border-style:double;
-    
     text-align: center;
     font-size:x-large;
 }
 
-
-td, th, tr {
+td, th {
     height: 40px;
     width: 50px
+}
+
+.menu-button{
+    background-color: var(--shadow-color);
+    color: var(--text-color);
+    font-weight: lighter;
+    font-size: medium;
 }
 
 .center {
