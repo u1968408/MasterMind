@@ -50,7 +50,10 @@ function insertar_codigo() {
 
     // Guardar valores actuales
     for (var i = 0; i < CODE_LENGTH; i++) {
-        valores[i] = codeD.value[i];
+        if (codeD.value[i] !== undefined){
+            valores[i] = codeD.value[i];
+        }
+        else valores[i] = 'x';
     }
 
     // Insertar en la tabla
