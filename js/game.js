@@ -36,9 +36,7 @@ window.onload = function(){
         var pos = Math.floor(Math.random() * tNumeros.length);
         code[i] = tNumeros[pos];
         tNumeros = arrayRemove(tNumeros, tNumeros[pos]);
-        console.log(tNumeros);
     }
-    console.log(code);
 
 };
 
