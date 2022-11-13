@@ -16,24 +16,38 @@
 }
 
 html{
-    height: 50%;
-    width: 30%;
+    height: 70%;
+    width: 50%;
     margin: auto;
 }
 
 body{
-    padding-top: 2cm;
+    padding-top: 1cm;
     background-color: var(--background-color);
     color: var(--text-color);
-    margin-left: 20%;
-    margin-right: 20%;
+    font-size:x-large;
+    text-shadow: 0 0 5px #7c2d2d;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
-.tablaJuego{
-    border-collapse: collapse;
-    border: 3px solid #CE9178;
-}
-
-th {
+table {
+    width: 100%;
+    border: 10px solid #7c2d2d;
+    border-style:double;
     
+    text-align: center;
+    font-size:x-large;
 }
+
+
+td, th, tr {
+    height: 40px;
+    width: 50px
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 2%;
+  }
